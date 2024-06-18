@@ -1,0 +1,14 @@
+{
+  "name": "edda",
+  "version": "1.0.0",
+  "description": "Aplicación para gestionar grafos y caminos",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "author": "Tu Nombre",
+  "license": "ISC"
+}

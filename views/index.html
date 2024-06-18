@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Grafo</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <h1>Gestor de Grafos</h1>
+    <div>
+        <h2>Agregar Vértice</h2>
+        <input type="text" id="vertex" placeholder="Nombre del vértice">
+        <button onclick="addVertex()">Agregar Vértice</button>
+    </div>
+    <div>
+        <h2>Agregar Arista</h2>
+        <input type="text" id="vertex1" placeholder="Vértice 1">
+        <input type="text" id="vertex2" placeholder="Vértice 2">
+        <button onclick="addEdge()">Agregar Arista</button>
+    </div>
+    <div>
+        <h2>Recorrido en Profundidad (DFS)</h2>
+        <input type="text" id="startVertexDFS" placeholder="Vértice Inicial">
+        <button onclick="performDFS()">Realizar DFS</button>
+        <div id="dfsResult"></div>
+    </div>
+    <div>
+        <h2>Camino más Corto</h2>
+        <input type="text" id="startVertex" placeholder="Vértice Inicial">
+        <input type="text" id="endVertex" placeholder="Vértice Final">
+        <button onclick="findShortestPath()">Encontrar Camino</button>
+        <div id="shortestPathResult"></div>
+    </div>
+    <script src="graphView.js"></script>
+</body>
+</html>
